@@ -285,8 +285,9 @@ let activateWithoutContext = (subscriptions, extensionPath, globalStoragePath) =
       }
     })
   })->subscribeMany
+
   // registerDocumentSemanticTokensProvider
-  registerDocumentSemanticTokensProvider()->subscribe
+  // registerDocumentSemanticTokensProvider()->subscribe
 
   // expose the channel for testing
   channels
